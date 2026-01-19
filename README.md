@@ -47,3 +47,16 @@ one time setup
 13) sudo nano frontend.conf   (then paste reverse proxy and edit domain)
 14) sudo systemctl reload nginx
 15) sudo certbot --nginx -d domain.com
+
+** Manual Deploy
+--------------------------------------
+1) cd /etc/nginx  cd conf.d
+
+Sudo nano file-name.conf
+
+Paste domain proxy code and update domain and ports
+
+Reload nginx
+
+Certbot for ssl
+
